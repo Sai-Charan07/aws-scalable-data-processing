@@ -1,0 +1,13 @@
+mkdir -p src/{ec2-setup,sqs-setup,rds-setup,cloudwatch-setup}
+mkdir -p scripts
+mkdir -p docs/performance-reports
+
+touch .gitignore README.md architecture-diagram.png
+touch src/ec2-setup/deploy-ec2.sh
+touch src/sqs-setup/setup-sqs.sh
+touch src/rds-setup/setup-rds.sh
+touch src/cloudwatch-setup/setup-cloudwatch.sh
+touch scripts/{deploy-infrastructure.sh,teardown-infrastructure.sh}
+touch docs/{design-doc.md,security-guidelines.md}
+
+echo "# AWS Scalable Data Processing System" > README.md
